@@ -1,4 +1,4 @@
-FROM rocm/tensorflow:rocm3.0-tf1.14-python3
+FROM rocm/tensorflow:rocm2.9-ub18.04-tf1.15-python3
 RUN apt update
 RUN pip install --upgrade pip
 RUN pip install tensorflow-rocm==1.14.0
